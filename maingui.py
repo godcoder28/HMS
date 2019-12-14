@@ -30,6 +30,7 @@ def cancel():
     id=(str(i_d.get()),)
     c.execute("DELETE FROM BOOKINGS WHERE BOOKINGID=%s",id)
     mydb.commit()
+
 mainw=Tk()
 mainw.title("The LEELA PLACE Systems")
 mainw.geometry('740x780')
