@@ -6,6 +6,26 @@ c=mydb.cursor()
 c.execute("delete from bookings where cout <(select curdate())")
 c.execute("update rooms set status=0 where roomn not in (select bookings.roomno from bookings);")
 mydb.commit()
+def shwin():
+    c.execute("SELECT bookingid,name,roomno,cin,cout FROM bookings")
+    data = c.fetchall()
+    sh=Tk()
+    sh.geometry('520x500')
+    welc = Label(sh, text='Current Bookings', relief='solid', font='times 32 bold').pack()
+    frame = Frame(sh, bd=10, height=600, width=450, relief=RIDGE, bg="powder blue")
+    frame.place(x=20, y=100)
+    h1 = Label(frame, padx=15,text="Booking ID").grid(row=0,column=0)
+    h2 = Label(frame, padx=15,text="Name").grid(row=0, column=1)
+    h3 = Label(frame, padx=15,text="Room No").grid(row=0, column=2)
+    h4 = Label(frame, padx=15,text="Checkin Date").grid(row=0, column=3)
+    h5 = Label(frame, padx=15,text="Checkout Date").grid(row=0, column=4)
+    m=2
+    for i in data:
+        n=0
+        for j in i:
+            x=Label(frame, bg="powder blue",padx=15,text=j).grid(row=m,column=n)
+            n+=1
+        m+=2
 def new():
     name=n1.get()
     mail=e3.get()
@@ -35,10 +55,10 @@ mainw=Tk()
 mainw.title("The LEELA PLACE Systems")
 mainw.geometry('740x780')
 welc=Label(mainw, text='WELCOME',relief='solid',font='times 64 bold',anchor='s')
-welc.place(y=20,x=130)
+welc.place(y=20,x=30)
 leftframe=Frame(mainw,bd=10,height=600,width=700,relief=RIDGE,bg="powder blue")
 leftframe.place(x=20,y=150)
-
+sbtn_1 = Button(mainw,text="SHOW BOOKINGS",command=shwin,font='times 16 bold',activebackground="pink", activeforeground="blue").place(x=520, y=50)
 newb=Label(leftframe, text='New Bookings',font='times 30 bold')
 newb.place(y=20,x=250)
 canb=Label(leftframe, text='Cancel Bookings',font='times 30 bold')

@@ -145,6 +145,8 @@
       <workItem from="1576256980510" duration="17137000" />
       <workItem from="1576348964013" duration="543000" />
       <workItem from="1576382898171" duration="592000" />
+      <workItem from="1576384969693" duration="196000" />
+      <workItem from="1576388764005" duration="4001000" />
     </task>
     <servers />
   </component>
@@ -176,7 +178,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Hotel_Management_System$maingui.coverage" NAME="maingui Coverage Results" MODIFIED="1576385092711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Hotel_Management_System$maingui.coverage" NAME="maingui Coverage Results" MODIFIED="1576395815239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Hotel_Management_System$test.coverage" NAME="test Coverage Results" MODIFIED="1576340818973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
