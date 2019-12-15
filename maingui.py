@@ -4,6 +4,7 @@ import mysql.connector
 mydb=mysql.connector.connect(user="root", password="shivang280703",host="localhost",database="coder01")
 c=mydb.cursor()
 c.execute("delete from bookings where cout <(select curdate())")
+c.execute("update rooms set status=0 where roomn not in (select bookings.roomno from bookings);")
 mydb.commit()
 def new():
     name=n1.get()
@@ -30,7 +31,6 @@ def cancel():
     id=(str(i_d.get()),)
     c.execute("DELETE FROM BOOKINGS WHERE BOOKINGID=%s",id)
     mydb.commit()
-
 mainw=Tk()
 mainw.title("The LEELA PLACE Systems")
 mainw.geometry('740x780')
