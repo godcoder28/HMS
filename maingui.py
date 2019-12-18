@@ -84,7 +84,7 @@ c2 = Entry(leftframe,textvar=outd).place(x=160, y=230)
 book_id= Label(leftframe, text="Booking ID :-").place(x=30, y=450)
 i_d=StringVar()
 e1 = Entry(leftframe,textvar=i_d).place(x=130, y=450)
-sbtn_2 = Button(leftframe,text="Submit",command=cancel,activebackground="pink", activeforeground="green").place(x=150, y=500)
+sbtn_2 = Button(leftframe,text="Submit",command=cancel,activebackground="pink", activeforeground="blue").place(x=150, y=500)
 mainw.mainloop()
 
 
