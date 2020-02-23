@@ -1,4 +1,4 @@
-create schema if not exists coder01 collate utf8mb4_0900_ai_ci;
+create schema if not exists coder01;
 
 create table if not exists bookings
 (
