@@ -149,8 +149,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.oops" />
-        <item itemvalue="Python.1-10 table" />
         <item itemvalue="Python.maingui" />
+        <item itemvalue="Python.1-10 table" />
         <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
@@ -181,7 +181,7 @@
       <workItem from="1584263676604" duration="1657000" />
       <workItem from="1584275090771" duration="2260000" />
       <workItem from="1587803888582" duration="1384000" />
-      <workItem from="1587805307404" duration="12079000" />
+      <workItem from="1587805307404" duration="23367000" />
     </task>
     <task id="LOCAL-00001" summary="drive remove">
       <created>1587804045060</created>
@@ -197,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587811710911</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="oops test 0">
+      <created>1587877240156</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587877240156</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,49 +226,50 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="drive remove" />
     <MESSAGE value="oops test" />
-    <option name="LAST_COMMIT_MESSAGE" value="oops test" />
+    <MESSAGE value="oops test 0" />
+    <option name="LAST_COMMIT_MESSAGE" value="oops test 0" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1587811709335">
+    <state x="393" y="7" key="CommitChangelistDialog2" timestamp="1587877238869">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587811709335" />
+    <state x="393" y="7" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1587877238869" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587803930443">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587803930443" />
-    <state width="758" height="194" key="GridCell.Tab.0.bottom" timestamp="1587877008434">
+    <state width="758" height="194" key="GridCell.Tab.0.bottom" timestamp="1587900177750">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="758" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587877008434" />
-    <state width="758" height="194" key="GridCell.Tab.0.center" timestamp="1587877008434">
+    <state width="758" height="194" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587900177750" />
+    <state width="758" height="194" key="GridCell.Tab.0.center" timestamp="1587900177750">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="758" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587877008434" />
-    <state width="758" height="194" key="GridCell.Tab.0.left" timestamp="1587877008434">
+    <state width="758" height="194" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587900177750" />
+    <state width="758" height="194" key="GridCell.Tab.0.left" timestamp="1587900177750">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="758" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587877008434" />
-    <state width="758" height="194" key="GridCell.Tab.0.right" timestamp="1587877008434">
+    <state width="758" height="194" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587900177750" />
+    <state width="758" height="194" key="GridCell.Tab.0.right" timestamp="1587900177750">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="758" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587877008434" />
+    <state width="758" height="194" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587900177750" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1587805165831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587805165831" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587811714111">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1587877244299">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587811714111" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1587877244299" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1587819847595">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="600" height="424" key="javadoc.popup/0.0.1536.824@0.0.1536.824" timestamp="1587819847595" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587805445502">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1587899110467">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587805445502" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1587899110467" />
     <state x="491" y="250" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1587803914011">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -286,9 +294,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Hotel_Management_System$oops.coverage" NAME="oops Coverage Results" MODIFIED="1587877008394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python Codes" />
+    <SUITE FILE_PATH="coverage/Hotel_Management_System$oops.coverage" NAME="oops Coverage Results" MODIFIED="1587900177743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python Codes" />
     <SUITE FILE_PATH="coverage/Hotel_Management_System$1_10_table.coverage" NAME="1-10 table Coverage Results" MODIFIED="1587808470349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../Python Codes" />
     <SUITE FILE_PATH="coverage/Hotel_Management_System$test.coverage" NAME="test Coverage Results" MODIFIED="1581744300286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Hotel_Management_System$maingui.coverage" NAME="maingui Coverage Results" MODIFIED="1587804481498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Hotel_Management_System$maingui.coverage" NAME="maingui Coverage Results" MODIFIED="1587897875281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
