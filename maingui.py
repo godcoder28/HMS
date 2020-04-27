@@ -32,7 +32,8 @@ def shwin():
             x = Label(frame, bg="powder blue", padx=15, text=j).grid(row=m, column=n)
             n += 1
         m += 2
-
+    print(data
+)
 
 def new():
     name = n1.get()
