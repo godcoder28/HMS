@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import messagebox
 import mysql.connector
 
-mydb = mysql.connector.connect(user="root", password="shivang280703", host="localhost",
+mydb = mysql.connector.connect(user="root", password="", host="localhost",
                                database="coder01")  # Connecting Db to project
 c = mydb.cursor()
 c.execute("delete from bookings where cout <(select curdate())")
